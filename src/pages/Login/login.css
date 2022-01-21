@@ -1,0 +1,108 @@
+.login {
+    display:flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+width: 100%;
+color: white;
+}
+.login-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    padding: 20px;
+    background-color: rgb(26, 24, 24);
+    width: 500px;
+    border-radius: 5px;
+     height:500px ;
+}
+.login-logo img {
+    width: 300px;
+    height: 300px;
+}
+.login-right h1 {
+    font-family: 'Roboto Slab';
+    font-size: 50px;
+  text-align: center;
+  background:transparent;
+
+}
+.login-right h4 {
+    font-family: "Roboto Slab";
+    font-weight: 300;
+    font-size: 12px;
+    margin-top: 40px;
+    font-weight:500 ;
+    text-align:center;
+}
+.login-InputEmail  {
+    display:flex;
+    align-items: center;
+    color: gray;
+    background-color: #18111183;
+    padding: 3px;
+    width: 98%;
+    height: 50px;
+    border-radius: 5px;
+  
+}
+.login-InputEmail . svg  {
+margin-left: 10px;
+font-size: 25px;
+}
+.login-InputEmail input {
+    background: transparent;
+    width: 100%;
+    outline-width: 0;
+    color: #E1E1E6;
+    border: none;
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right:10px ;
+}
+.login-InputPassword  {
+    display:flex;
+    align-items: center;
+    color: gray;
+    background-color: #18111183;
+    padding:10px;
+    width: 8%;
+    height: 50px;
+    border-radius: 5px;
+
+}
+
+.login-InputPassword . svg  {
+margin-left: 10px;
+font-size: 25px;
+}
+.login-InputPassword input {
+    background: transparent;
+    width: 100%;
+    outline-width: 0;
+    color: #E1E1E6;
+    font-size: 17px;
+    margin-left: 12px;
+    margin-right:10px ;
+    border: none;
+}
+
+    .login-right button {
+         width: 98%;
+        color: #E1E1E6;
+        font-size: 18px;
+       background-color: rgb(15, 15, 15);
+       font-weight: 800;
+       height: 50px;
+       border-radius: 5px;
+       margin-top: 5px;
+       border: none;
+       outline-width: 0;
+
+}.login-right button:hover {
+   color: #E1E1E6;
+  background-color: rgb(41, 40, 40);
+cursor:pointer;
+}
