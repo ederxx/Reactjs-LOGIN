@@ -14,17 +14,16 @@ function Login(){
     return (
         <div className="login">
        <div className="login-logo">
-           <img src="https://flyclipart.com/downloadpage/images/user-logn-login-member-icon-with-png-and-vector-format-935695.png/935695" alt="Login App"/>
        </div>
        <div className="login-right">
-        <h1>LOGIN</h1>
+        <h1>Login</h1>
 
         <div className="login-InputEmail">
         <MdEmail />
 
                 <input 
                 type="email"
-                placeholder="Digite um Email"
+                placeholder="Username"
                 value={email}
                 onChange={e => setEmail(e.target.value)}
 
@@ -34,7 +33,7 @@ function Login(){
        <MdOutlineLock/>
                
                      <input 
-                placeholder="Digite sua senha"
+                placeholder="Paswword"
                 type={show ? "text" : "password"}
                 value={password}
                 onChange={e => setPassword(e.target.value)}
@@ -58,12 +57,13 @@ function Login(){
         <button type="submit">
             Entrar
         </button>
-            <h4>Não tenho conta</h4>
-            <button type="submit">
-            Cadastrar
-        </button>
-       </div>
+           <a href=''> Lost Your Password ?</a>
+            
+
+      </div>
+
      </div>
+     
     )
     
 }

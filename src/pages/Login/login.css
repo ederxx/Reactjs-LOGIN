@@ -4,7 +4,16 @@ align-items: center;
 justify-content: center;
 height: 100vh;
 width: 100%;
-color: white;
+color: rgb(93, 217, 255);
+background-color: rgb(93, 217, 255);;
+}
+.login-logo {
+    color: rgb(93, 217, 255);
+    background-color:  rgb(93, 217, 255);
+
+
+
+
 }
 .login-right {
     display: flex;
@@ -13,36 +22,53 @@ color: white;
     align-items: center;
     margin-left: 50px;
     padding: 20px;
-    background-color: rgb(26, 24, 24);
-    width: 500px;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
     border-radius: 5px;
-     height:500px ;
+     height:300px ;
+}.login-fim 
+{    justify-content: center;
+    align-items:flex-end;
+    margin-left: 50px;
+    padding: 20px;
+    background-color: transparent;
+    width: 300px;
+    border-radius: 5px;
+     height:300px ;
+
+
+
+
 }
 .login-logo img {
     width: 300px;
     height: 300px;
+    background-color:rgb(93, 217, 255);
 }
 .login-right h1 {
     font-family: 'Roboto Slab';
-    font-size: 50px;
+    font-size: 40px;
   text-align: center;
   background:transparent;
+  color:black;
+  margin-bottom: 20px;
 
 }
-.login-right h4 {
+.login-right a {
     font-family: "Roboto Slab";
     font-weight: 300;
-    font-size: 22px;
+    font-size: 16px;
     margin-top: 40px;
     font-weight:500 ;
     text-align:center;
     background: transparent;
+    color: #5f5f63;
 }
 .login-InputEmail  {
     display:flex;
     align-items: center;
-    color: gray;
-    background-color: #3d343483;
+    color: rgb(224, 217, 217);
+    background-color: #dfdfdf83;
     margin-bottom: 10px;
     padding: 3px;
     width: 98%;
@@ -59,7 +85,7 @@ background: transparent;
     background: transparent;
     width: 100%;
     outline-width: 0;
-    color: #E1E1E6;
+    color: #5f5f63;
     border: none;
     font-size: 17px;
     margin-left: 10px;
@@ -68,8 +94,8 @@ background: transparent;
 .login-InputPassword  {
     display:flex;
     align-items: center;
-    color: gray;
-    background-color: #3d343483;
+    color: rgb(224, 217, 217);
+    background-color: #dfdfdf83;
     padding:3px;
     width: 98%;
     height: 50px;
@@ -86,7 +112,7 @@ background: transparent;
     background: transparent;
     width: 100%;
     outline-width: 0;
-    color: #E1E1E6;
+    color: #323235;
     font-size: 17px;
     margin-left: 12px;
     margin-right:10px ;
@@ -94,10 +120,10 @@ background: transparent;
 }
 
     .login-right button {
-       width: 98%;
-       color: #E1E1E6;
+       width: 100%;
+       color: #ffffff;
        font-size: 18px;
-       background-color: rgb(15, 15, 15);
+       background-color: rgb(93, 217, 255);
        font-weight: 800;
        height: 50px;
        border-radius: 5px;
