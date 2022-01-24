@@ -32,25 +32,28 @@ color: white;
 .login-right h4 {
     font-family: "Roboto Slab";
     font-weight: 300;
-    font-size: 12px;
+    font-size: 22px;
     margin-top: 40px;
     font-weight:500 ;
     text-align:center;
+    background: transparent;
 }
 .login-InputEmail  {
     display:flex;
     align-items: center;
     color: gray;
-    background-color: #18111183;
+    background-color: #3d343483;
+    margin-bottom: 10px;
     padding: 3px;
     width: 98%;
     height: 50px;
     border-radius: 5px;
   
 }
-.login-InputEmail . svg  {
+.login-InputEmail Svg  {
 margin-left: 10px;
-font-size: 25px;
+font-size: 50px;
+background: transparent;
 }
 .login-InputEmail input {
     background: transparent;
@@ -66,17 +69,18 @@ font-size: 25px;
     display:flex;
     align-items: center;
     color: gray;
-    background-color: #18111183;
-    padding:10px;
-    width: 8%;
+    background-color: #3d343483;
+    padding:3px;
+    width: 98%;
     height: 50px;
     border-radius: 5px;
 
 }
 
-.login-InputPassword . svg  {
-margin-left: 10px;
-font-size: 25px;
+.login-InputPassword Svg  {
+    margin-left: 10px;
+    font-size: 50px;
+    background: transparent;
 }
 .login-InputPassword input {
     background: transparent;
@@ -90,9 +94,9 @@ font-size: 25px;
 }
 
     .login-right button {
-         width: 98%;
-        color: #E1E1E6;
-        font-size: 18px;
+       width: 98%;
+       color: #E1E1E6;
+       font-size: 18px;
        background-color: rgb(15, 15, 15);
        font-weight: 800;
        height: 50px;
@@ -105,4 +109,9 @@ font-size: 25px;
    color: #E1E1E6;
   background-color: rgb(41, 40, 40);
 cursor:pointer;
-}
+
+
+
+}.login-eye {
+   background: transparent;
+ }
